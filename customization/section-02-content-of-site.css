@@ -1,0 +1,71 @@
+.section-02-content-of-site .clear
+{
+    clear: both;
+    width: 63px;
+}
+
+.section-02-content-of-site p
+{
+color: black;
+}
+
+.section-02-content-of-site .my-film-item
+{
+    text-align: center;
+}
+
+.section-02-content-of-site .my-film-item img
+{
+    /*margin-top: 5px;*/
+    border-radius: 5px;
+    border: 5px solid #dad7d5;
+    width: 100%;
+}
+
+.section-02-content-of-site p.my-film-item-label
+{
+    padding: 2px;
+    margin: 4px;
+}
+
+.section-02-content-of-site h2.my-name-of-category
+{
+    margin-top: 10px;
+}
+
+.section-02-content-of-site div.card-header.my-bg-color-orange
+{
+    background-color: darkorange;
+    border: none;
+    color: white;
+}
+
+.section-02-content-of-site div.card-body {
+    background-color: #f6f8f5;
+}
+
+.section-02-content-of-site div.card {
+    border-color: transparent;
+}
+
+.section-02-content-of-site input#search
+{
+    position: relative;
+    white-space: nowrap;
+}
+
+.section-02-content-of-site button.btn.my-btn-search.btn-primary.btn-sm
+{
+    position: absolute;
+    top: 48%;
+    /*left: 78%;*/
+    z-index: 1;
+    /*margin-left: 170px;*/
+    /*margin-top: -3px;*/
+    height: 37px;
+}
+
+.my-column-of-tools h2.my-name-of-category
+{
+    color: white;
+}

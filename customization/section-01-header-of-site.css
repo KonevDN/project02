@@ -1,0 +1,89 @@
+.my-header a, a:hover
+{
+    color: #f0ad4e;
+
+    text-decoration: none;
+}
+
+.my-header h1
+{
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+
+.my-header p
+{
+    color: white !important;
+    font-size: 90%;
+    letter-spacing: 3px;
+
+}
+
+.my-dark-background
+{
+    background-color: #121212;
+}
+
+.my-menu-primary .navbar-nav .nav-item .nav-link
+{
+color: white;
+    font-size: 16px;
+}
+
+.my-menu-primary button span.navbar-toggler-icon
+{
+    color: white;
+    font-size: 36px;
+}
+
+h1.my-logotype
+{
+    /*color: #a97d31;*/
+    color: greenyellow;
+    letter-spacing: 4px;
+    font-size: 42px;
+    padding-top: 16px;
+}
+
+p.my-logotype
+{
+    color: white;
+    letter-spacing: 4px;
+    font-size: 16px;
+    padding-left: 3px;
+}
+
+div#navbarSupportedContent.navbar-collapse.collapse
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+.my-menu-primary .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    font-size: 16px;
+    background-color: #007bff;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+    /*color: black;*/
+    border: none;
+    outline: none;
+}
+
+/*.nav-pills .nav-link.active, .nav-pills .show > .nav-link {*/
+/*    color: #fff;*/
+/*    background-color: greenyellow;*/
+/*}*/
+
+@media (max-width: 575px) {
+    ul.navbar-nav.nav-pills.ml-auto {
+        text-align: center;
+    }
+
+    h1.my-logotype, p.my-logotype
+    {
+        text-align: center;
+    }
+}
